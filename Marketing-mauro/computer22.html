@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>NewsLetter - Mauro</title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            #container{
+                width: 100vmax;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            #bloco-cabecalho{
+                width: 100%;
+                height: 60px;
+                background: linear-gradient(#276b62, #46847a, #46847a, #a7d1c9);
+                display: flex;
+                justify-content: space-around;
+            }
+            #cabecalho{
+                width: 90%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            #logo-mauro{
+                width: 130px;
+                height: 40px;
+                padding-top: 10px;
+            }
+            #bloco-redes-sociais{
+                width: auto;
+                height: 80%;
+            }
+            .redes-sociais{
+                width: 30px;
+            }
+            .redes-sociais:nth-last-child(-n+2){
+                padding-top: 15px;
+                margin-left: 5px;
+            }
+            #article{
+                width: 70%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                border: 1px solid red;
+            }
+            #bloco-borda{
+                width: 97%;
+                height: 300px;
+                border: 1px solid blue;
+            }
+            #img-lote{
+                width: 300px;
+            }
+            /*#bloco-descricao-lote{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }*/
+            #descricao-lote{
+                width: 97%;
+                border-radius: 3px;
+                border: 1px solid red;
+                font-size: 15px;
+                font-family: sans-serif;                
+            }
+            #descricao{
+                color: #939393;  
+                font-size: 22px;
+            }
+
+
+            /*border: 1px solid red;*/
+            
+
+            @media (min-width: 1800px) and (max-width: 1900px) {
+                
+                }
+                
+
+        /*  border: 1px solid red;  */
+                
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="bloco-cabecalho">
+                <div id="cabecalho">
+                    <img id="logo-mauro" src="H:\ISAAC\AREA\Nova pasta\Logo-mauro\logo-mauro_150px.png"/>
+                        <div id="bloco-redes-sociais">
+                            <img class="redes-sociais" src="H:\ISAAC\AREA\Nova pasta\Icones-redes-sociais\WhatsApp.png"/>
+                            <img class="redes-sociais" src="H:\ISAAC\AREA\Nova pasta\Icones-redes-sociais\Facebook.png"/>
+                            <img class="redes-sociais" src="H:\ISAAC\AREA\Nova pasta\Icones-redes-sociais\Linkedin.png"/>
+                        </div>
+                </div>
+            </div>
+            <br>
+            <div id="article">
+                <div id="bloco-borda">
+                    <img id="img-lote" src="H:\ISAAC\AREA\Nova pasta\LT004_02.JPG"/>
+                    <div id="bloco-descricao-lote">
+                        <br>
+                        <div id="descricao-lote"><b id="descricao">Descrição:</b>
+                            <br>
+                            ESCAVADEIRA CAT 349D DE ESTEIRA, SÉRIE: CAT0349DDJJCB00214
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
